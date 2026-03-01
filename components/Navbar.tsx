@@ -9,9 +9,12 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     const links = [
+        { name: "Home", href: "#home" },
         { name: "The Philosophy", href: "#philosophy" },
-        { name: "Protocols", href: "#protocols" },
+        { name: "Nutrition Plans", href: "#nutrition" },
+        { name: "Training Programs", href: "#training" },
         { name: "Results", href: "#results" },
+        { name: "Contact", href: "#contact" },
     ];
 
     return (
