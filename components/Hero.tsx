@@ -5,6 +5,15 @@ import { motion } from "framer-motion";
 export default function Hero() {
     return (
         <section className="relative min-h-screen flex flex-col justify-center overflow-hidden px-6 pt-20">
+            <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="absolute inset-0 w-full h-full object-cover z-0"
+                src="/vid.mp4"
+            />
+            <div className="absolute inset-0 bg-background/60 z-0" />
             <div className="mx-auto max-w-7xl w-full relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
 
                 <div className="lg:col-span-8 flex flex-col">
